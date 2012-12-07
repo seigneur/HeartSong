@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:id="@+id/layout">
+    	<LinearLayout android:id="@+id/top"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+   
+        <RelativeLayout
+	        android:orientation="horizontal" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent">
+
+	    <TextView android:id="@+id/text"
+            android:text="@string/default_text"
+            android:textSize="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">        
+        </TextView>
+	
+        <TextView android:id="@+id/text2"
+            android:text="@string/text2"
+            android:textSize="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">        
+        </TextView>
+	
+	    	   		   
+          <com.jwetherell.heart_rate_monitor.HeartbeatView android:id="@+id/image"
+	           	android:layout_centerInParent="true" 
+	            android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		  </com.jwetherell.heart_rate_monitor.HeartbeatView>
+		  
+       
+   
+    <Button  android:id="@+id/Button03"  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+	        android:text = "@string/Shuffle"
+	        android:layout_centerVertical="true"
+		    android:onClick="onShuffle">
+			</Button> 
+			
+    <ProgressBar android:id="@+id/progress"
+         android:layout_width="wrap_content"
+         android:layout_toLeftOf="@+id/Button03"
+         android:paddingRight="10dp"
+         android:layout_height="wrap_content"
+ 		 android:layout_centerVertical="true"
+         style="@android:style/Widget.ProgressBar.Small"
+         android:indeterminate = "true"
+         android:layout_marginRight="5dp" />
+			
+   </RelativeLayout>
+
+        </LinearLayout>
+
+		<SurfaceView android:id="@+id/preview"
+        android:layout_weight="1" 
+		android:layout_width="fill_parent"
+		android:layout_height="0dp">
+	</SurfaceView>
+	    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#000" >
+
+        <com.pheelicks.visualizer.VisualizerView
+            android:id="@+id/visualizerView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.pheelicks.visualizer.VisualizerView>
+    </FrameLayout>
+
+</LinearLayout>

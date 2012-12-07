@@ -1,0 +1,13 @@
+<resources>
+    <string name="default_text">--</string>
+    <string name="app_name">HeartSong</string>
+    <string name="Refresh">Refresh</string>
+    <string name="Exit">Exit</string>
+    <string name="Shuffle">Shuffle</string>
+    <string name="ticker_text">--</string>
+    <string name="text2"/>
+    <string name="Help">Help</string>
+    <string name="Helptext">helpme</string>
+    <string name="closeme">Close</string>
+    <string-array name="HELPTEXT2"></string-array>
+</resources>

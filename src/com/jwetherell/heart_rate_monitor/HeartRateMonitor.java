@@ -1,10 +1,16 @@
 package com.jwetherell.heart_rate_monitor;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+
 
 import android.os.Vibrator;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -31,8 +37,10 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -99,30 +107,28 @@ public class HeartRateMonitor extends Activity {
     }
 	
 	public void showhelp() {
-		Log.d(TAG, "We help");
-		LinearLayout layout2;
-		LayoutInflater inflater = getLayoutInflater();
-        //Inflate the view from a predefined XML layout
-        Log.d(TAG, "We help 2");
+	//	Log.d(TAG, "We help");
+		
+		AlertDialog adb = new AlertDialog.Builder(this).setTitle(R.string.HelpT).setMessage(R.string.HelpM)
+				  .setPositiveButton(R.string.HelpOK,
+						   new DialogInterface.OnClickListener() {
+						    
+						    @Override
+						    public void onClick(DialogInterface dialog, int which) {
+						     // TODO Auto-generated method stub
+						     
+						    }
+						   }
+						    )
+						  .show();
 
-        layout2 =(LinearLayout) findViewById(R.id.popup_element);
-		View layout = inflater.inflate(R.layout.popup_layout,
-                layout2);
-        Log.d(TAG, "We help 3");
-
-
-		popUp = new PopupWindow(layout, 300, 470, true);
-		popUp.showAtLocation(layout, Gravity.CENTER, 0, 0);
-		popUp.setBackgroundDrawable(new BitmapDrawable());
-		popUp.setOutsideTouchable(true);
-		  
-        Log.d(TAG, "We help over");
+//        Log.d(TAG, "We help over");
 
     }
 	public void onCloseHelp(View v)
 	{
      popUp.dismiss();
-     
+     //this method is no longer required
 	}
 	
 	
@@ -190,6 +196,7 @@ public class HeartRateMonitor extends Activity {
 		text2 = (TextView) findViewById(R.id.text2);
 
 		text2.setVisibility(View.GONE);
+
 		
         PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
         wakeLock = pm.newWakeLock(PowerManager.FULL_WAKE_LOCK, "DoNotDimScreen");
@@ -207,7 +214,13 @@ public class HeartRateMonitor extends Activity {
         });
        
         
-		
+		//help
+              /*
+        TextView myText = (TextView) findViewById(R.id.Helptext);
+		myText.setText("Hold the phone with that ");
+                Log.d(TAG, "We Found mylist and created the adapter");
+    */
+        //help ends
         
 	}
     

@@ -1,0 +1,28 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.jwetherell.heart_rate_monitor.BuildConfig
+com.jwetherell.heart_rate_monitor.HeartRateMonitor:
+    private static final java.lang.String TAG
+    private static final int averageArraySize
+    private static final int beatsArraySize
+    android.widget.TextView tv
+com.jwetherell.heart_rate_monitor.ImageProcessing:
+    9:9:public ImageProcessing()
+com.jwetherell.heart_rate_monitor.R
+com.jwetherell.heart_rate_monitor.R$array
+com.jwetherell.heart_rate_monitor.R$attr
+com.jwetherell.heart_rate_monitor.R$drawable
+com.jwetherell.heart_rate_monitor.R$id
+com.jwetherell.heart_rate_monitor.R$layout
+com.jwetherell.heart_rate_monitor.R$menu
+com.jwetherell.heart_rate_monitor.R$string
+com.pheelicks.visualizer.VisualizerView:
+    private static final java.lang.String TAG
+    134:135:public void clearRenderers()
+    143:144:public void release()
+    175:177:public void flash()
+com.pheelicks.visualizer.renderer.BarGraphRenderer
+com.pheelicks.visualizer.renderer.CircleBarRenderer
+com.pheelicks.visualizer.renderer.CircleRenderer
+com.pheelicks.visualizer.renderer.LineRenderer:
+    33:34:public LineRenderer(android.graphics.Paint,android.graphics.Paint)

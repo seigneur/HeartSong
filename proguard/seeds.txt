@@ -1,0 +1,54 @@
+com.jwetherell.heart_rate_monitor.HeartRateMonitor
+com.jwetherell.heart_rate_monitor.HeartRateMonitor: HeartRateMonitor()
+com.jwetherell.heart_rate_monitor.HeartRateMonitor: void refreshMusic(android.view.View)
+com.jwetherell.heart_rate_monitor.HeartRateMonitor: void onCloseHelp(android.view.View)
+com.jwetherell.heart_rate_monitor.HeartRateMonitor: void onShuffle(android.view.View)
+com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE: com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE[] values()
+com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE: com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE valueOf(java.lang.String)
+com.jwetherell.heart_rate_monitor.HeartbeatView
+com.jwetherell.heart_rate_monitor.HeartbeatView: HeartbeatView(android.content.Context,android.util.AttributeSet)
+com.jwetherell.heart_rate_monitor.HeartbeatView: HeartbeatView(android.content.Context)
+com.jwetherell.heart_rate_monitor.R$array: int HELPTEXT2
+com.jwetherell.heart_rate_monitor.R$drawable: int bshuffle
+com.jwetherell.heart_rate_monitor.R$drawable: int exit
+com.jwetherell.heart_rate_monitor.R$drawable: int green_icon
+com.jwetherell.heart_rate_monitor.R$drawable: int green_icon2
+com.jwetherell.heart_rate_monitor.R$drawable: int green_icon_old
+com.jwetherell.heart_rate_monitor.R$drawable: int heartrate
+com.jwetherell.heart_rate_monitor.R$drawable: int icon
+com.jwetherell.heart_rate_monitor.R$drawable: int red_icon
+com.jwetherell.heart_rate_monitor.R$drawable: int red_icon2
+com.jwetherell.heart_rate_monitor.R$drawable: int red_icon3
+com.jwetherell.heart_rate_monitor.R$drawable: int red_icon_old
+com.jwetherell.heart_rate_monitor.R$drawable: int shuffled
+com.jwetherell.heart_rate_monitor.R$id: int Button02
+com.jwetherell.heart_rate_monitor.R$id: int Button03
+com.jwetherell.heart_rate_monitor.R$id: int Helptext
+com.jwetherell.heart_rate_monitor.R$id: int exit
+com.jwetherell.heart_rate_monitor.R$id: int help
+com.jwetherell.heart_rate_monitor.R$id: int image
+com.jwetherell.heart_rate_monitor.R$id: int layout
+com.jwetherell.heart_rate_monitor.R$id: int popup_element
+com.jwetherell.heart_rate_monitor.R$id: int preview
+com.jwetherell.heart_rate_monitor.R$id: int progress
+com.jwetherell.heart_rate_monitor.R$id: int text
+com.jwetherell.heart_rate_monitor.R$id: int text2
+com.jwetherell.heart_rate_monitor.R$id: int top
+com.jwetherell.heart_rate_monitor.R$id: int visualizerView
+com.jwetherell.heart_rate_monitor.R$layout: int main
+com.jwetherell.heart_rate_monitor.R$layout: int popup_layout
+com.jwetherell.heart_rate_monitor.R$menu: int menu
+com.jwetherell.heart_rate_monitor.R$string: int Exit
+com.jwetherell.heart_rate_monitor.R$string: int Help
+com.jwetherell.heart_rate_monitor.R$string: int Helptext
+com.jwetherell.heart_rate_monitor.R$string: int Refresh
+com.jwetherell.heart_rate_monitor.R$string: int Shuffle
+com.jwetherell.heart_rate_monitor.R$string: int app_name
+com.jwetherell.heart_rate_monitor.R$string: int closeme
+com.jwetherell.heart_rate_monitor.R$string: int default_text
+com.jwetherell.heart_rate_monitor.R$string: int text2
+com.jwetherell.heart_rate_monitor.R$string: int ticker_text
+com.pheelicks.visualizer.VisualizerView
+com.pheelicks.visualizer.VisualizerView: VisualizerView(android.content.Context,android.util.AttributeSet,int)
+com.pheelicks.visualizer.VisualizerView: VisualizerView(android.content.Context,android.util.AttributeSet)
+com.pheelicks.visualizer.VisualizerView: VisualizerView(android.content.Context)

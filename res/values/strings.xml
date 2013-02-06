@@ -6,8 +6,13 @@
     <string name="Shuffle">Shuffle</string>
     <string name="ticker_text">--</string>
     <string name="text2"/>
-    <string name="Help">Help</string>
-    <string name="Helptext">helpme</string>
+    <string name="HelpT">Help</string>
+    <string name="HelpOK">OK!</string>
     <string name="closeme">Close</string>
-    <string-array name="HELPTEXT2"></string-array>
+     <string name="HelpM">
+        1) Put your arm on a flat surface like a table.\n
+        2) Hold the phone with that arm and put your index finger on the lens of the camera.\n
+        3) After 10 seconds you will see a numeric reading on the top left hand side
+of the screen (That is heart rate reading in beats per minute).\n
+        </string>
 </resources>

@@ -1,0 +1,143 @@
+com.jwetherell.heart_rate_monitor.HeartRateMonitor -> com.jwetherell.heart_rate_monitor.HeartRateMonitor:
+    java.util.concurrent.atomic.AtomicBoolean processing -> c
+    java.lang.Boolean Shuffled -> d
+    android.view.SurfaceView preview -> e
+    android.view.SurfaceHolder previewHolder -> f
+    android.hardware.Camera camera -> g
+    android.view.View image -> h
+    android.widget.TextView text -> i
+    android.widget.TextView text2 -> j
+    android.widget.TextView ticker_text -> k
+    android.widget.TextView song -> l
+    android.os.PowerManager$WakeLock wakeLock -> m
+    android.widget.ProgressBar mProgress -> n
+    int averageIndex -> o
+    int[] averageArray -> p
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE currentType -> q
+    int beatsIndex -> r
+    int[] beatsArray -> s
+    double beats -> t
+    long startTime -> u
+    double beatsAvg -> v
+    android.media.MediaPlayer mp_file -> w
+    android.os.Handler mhandler -> x
+    int playing -> y
+    com.pheelicks.visualizer.VisualizerView mVisualizerView -> z
+    android.widget.PopupWindow popUp -> a
+    java.lang.Runnable timer -> b
+    android.hardware.Camera$PreviewCallback previewCallback -> A
+    android.view.SurfaceHolder$Callback surfaceCallback -> B
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE getCurrent() -> a
+    void refreshMusic(android.view.View) -> refreshMusic
+    void onClose() -> b
+    void showhelp() -> c
+    void onCloseHelp(android.view.View) -> onCloseHelp
+    void addLineRenderer() -> s
+    void onShuffle(android.view.View) -> onShuffle
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onCreate(android.os.Bundle) -> onCreate
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void mediaPlay() -> d
+    void CreateVisualization(android.media.MediaPlayer) -> a
+    android.hardware.Camera$Size getSmallestPreviewSize(int,int,android.hardware.Camera$Parameters) -> b
+    android.os.Handler access$0(com.jwetherell.heart_rate_monitor.HeartRateMonitor) -> a
+    java.util.concurrent.atomic.AtomicBoolean access$1() -> e
+    int[] access$2() -> f
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE access$3() -> g
+    double access$4() -> h
+    void access$5(double) -> a
+    int access$6() -> i
+    void access$7(int) -> a
+    void access$8(com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE) -> a
+    android.view.View access$9() -> j
+    long access$10() -> k
+    void access$11(long) -> a
+    int access$12() -> l
+    void access$13(int) -> b
+    int[] access$14() -> m
+    void access$15(double) -> b
+    android.widget.TextView access$16() -> n
+    double access$17() -> o
+    android.hardware.Camera access$18() -> p
+    android.view.SurfaceHolder access$19() -> q
+    android.hardware.Camera$PreviewCallback access$20() -> r
+    android.hardware.Camera$Size access$21(int,int,android.hardware.Camera$Parameters) -> a
+com.jwetherell.heart_rate_monitor.HeartRateMonitor$1 -> com.jwetherell.heart_rate_monitor.a:
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor this$0 -> a
+    void run() -> run
+com.jwetherell.heart_rate_monitor.HeartRateMonitor$2 -> com.jwetherell.heart_rate_monitor.b:
+    void onPreviewFrame(byte[],android.hardware.Camera) -> onPreviewFrame
+com.jwetherell.heart_rate_monitor.HeartRateMonitor$3 -> com.jwetherell.heart_rate_monitor.c:
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+com.jwetherell.heart_rate_monitor.HeartRateMonitor$4 -> com.jwetherell.heart_rate_monitor.d:
+    android.os.Vibrator vibe -> a
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor this$0 -> b
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE -> com.jwetherell.heart_rate_monitor.e:
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE GREEN -> a
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE RED -> b
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE[] ENUM$VALUES -> c
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE[] values() -> values
+    com.jwetherell.heart_rate_monitor.HeartRateMonitor$TYPE valueOf(java.lang.String) -> valueOf
+com.jwetherell.heart_rate_monitor.HeartbeatView -> com.jwetherell.heart_rate_monitor.HeartbeatView:
+    android.graphics.Matrix matrix -> a
+    android.graphics.Paint paint -> b
+    android.graphics.Bitmap greenBitmap -> c
+    android.graphics.Bitmap redBitmap -> d
+    int parentWidth -> e
+    int parentHeight -> f
+    void onMeasure(int,int) -> onMeasure
+    void onDraw(android.graphics.Canvas) -> onDraw
+com.jwetherell.heart_rate_monitor.ImageProcessing -> com.jwetherell.heart_rate_monitor.f:
+    int decodeYUV420SPtoRedSum(byte[],int,int) -> b
+    int decodeYUV420SPtoRedAvg(byte[],int,int) -> a
+com.pheelicks.visualizer.AudioData -> com.pheelicks.visualizer.a:
+    byte[] bytes -> a
+com.pheelicks.visualizer.FFTData -> com.pheelicks.visualizer.b:
+    byte[] bytes -> a
+com.pheelicks.visualizer.VisualizerView -> com.pheelicks.visualizer.VisualizerView:
+    byte[] mBytes -> d
+    byte[] mFFTBytes -> e
+    android.graphics.Rect mRect -> f
+    android.media.audiofx.Visualizer mVisualizer -> g
+    java.util.Set mRenderers -> h
+    android.graphics.Paint mFlashPaint -> i
+    android.graphics.Paint mFadePaint -> j
+    boolean mFlash -> a
+    android.graphics.Bitmap mCanvasBitmap -> b
+    android.graphics.Canvas mCanvas -> c
+    void init() -> a
+    void link(android.media.MediaPlayer) -> a
+    void addRenderer(com.pheelicks.visualizer.renderer.Renderer) -> a
+    void updateVisualizer(byte[]) -> a
+    void updateVisualizerFFT(byte[]) -> b
+    void onDraw(android.graphics.Canvas) -> onDraw
+    android.media.audiofx.Visualizer access$0(com.pheelicks.visualizer.VisualizerView) -> a
+com.pheelicks.visualizer.VisualizerView$1 -> com.pheelicks.visualizer.c:
+    com.pheelicks.visualizer.VisualizerView this$0 -> a
+    void onWaveFormDataCapture(android.media.audiofx.Visualizer,byte[],int) -> onWaveFormDataCapture
+    void onFftDataCapture(android.media.audiofx.Visualizer,byte[],int) -> onFftDataCapture
+com.pheelicks.visualizer.VisualizerView$2 -> com.pheelicks.visualizer.d:
+    com.pheelicks.visualizer.VisualizerView this$0 -> a
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+com.pheelicks.visualizer.renderer.LineRenderer -> com.pheelicks.visualizer.a.a:
+    android.graphics.Paint mPaint -> c
+    android.graphics.Paint mFlashPaint -> d
+    boolean mCycleColor -> e
+    float amplitude -> f
+    float colorCounter -> g
+    void onRender(android.graphics.Canvas,com.pheelicks.visualizer.AudioData,android.graphics.Rect) -> a
+    void onRender(android.graphics.Canvas,com.pheelicks.visualizer.FFTData,android.graphics.Rect) -> a
+    void cycleColor() -> a
+com.pheelicks.visualizer.renderer.Renderer -> com.pheelicks.visualizer.a.b:
+    float[] mPoints -> a
+    float[] mFFTPoints -> b
+    void onRender(android.graphics.Canvas,com.pheelicks.visualizer.AudioData,android.graphics.Rect) -> a
+    void onRender(android.graphics.Canvas,com.pheelicks.visualizer.FFTData,android.graphics.Rect) -> a
+    void render(android.graphics.Canvas,com.pheelicks.visualizer.AudioData,android.graphics.Rect) -> b
+    void render(android.graphics.Canvas,com.pheelicks.visualizer.FFTData,android.graphics.Rect) -> b

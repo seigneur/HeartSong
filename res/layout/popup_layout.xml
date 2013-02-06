@@ -3,12 +3,14 @@
     android:id="@+id/popup_element" 
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent" android:background="#444444" android:padding="10dp" android:orientation="vertical">
-      <TextView android:id="@+id/Helptext"
-            android:text="@string/Helptext"
-            android:textSize="32sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">        
-        </TextView>
+      <ListView
+     android:layout_height="fill_parent"
+     android:layout_width="fill_parent"
+      android:layout_marginTop="5dp" 
+     android:textSize="12sp"
+     android:id="@+id/HelpT"
+     android:entries="@+id/HelpT">
+</ListView>
 	 <Button  android:id="@+id/Button02"  
 		    android:layout_width="wrap_content" 
 		    android:layout_height="wrap_content"

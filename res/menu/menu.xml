@@ -4,5 +4,5 @@
           android:icon="@drawable/exit"
           android:title="@string/Exit"
           />
-        <item android:id="@+id/help" android:title="@string/Help"></item>
+        <item android:id="@+id/help" android:title="@string/HelpT"></item>
     </menu>

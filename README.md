@@ -1,1 +1,1 @@
-https://github.com/seigneur/HeartSong/wiki/Help-File
+https://github.com/seigneur/HeartSong/wiki
